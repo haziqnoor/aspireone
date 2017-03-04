@@ -1,0 +1,9 @@
+# /dev/mapper/cryptroot
+UUID=cb161a37-9946-425a-896a-71c6db16dfb9	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /dev/sda1
+UUID=acbc72bb-821c-4816-82c8-5f852dd7a7ba	/boot     	ext4      	rw,relatime,data=ordered	0 2
+
+/dev/mapper/swap  none   swap    defaults   0       0 
+
+/dev/mapper/crypthome2 /media/home2 ext4 defaults,nofail 0 2
