@@ -61,3 +61,10 @@ sudo cp -vpf --remove-destination \
   ~/src/aspireone/privoxy/user.action \
   /etc/privoxy/user.action
 sudo chown -hR privoxy:privoxy /etc/privoxy/user.action
+
+mkdir -p ~/.local/share/DisplayCAL/
+if [ ! -d ~/.local/share/DisplayCAL/storage ]; then ln -svf \
+  ~/src/aspireone/DisplayCAL/storage/ \
+  ~/.local/share/DisplayCAL/storage > /dev/null 2>&1; fi
+ln -svf ~/src/aspireone/DisplayCAL/spyd2PLD.bin \
+  ~/.local/share/color/spyd2PLD.bin
