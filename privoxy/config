@@ -1362,6 +1362,9 @@ forward-socks5t   /               127.0.0.1:9050 .
 #      exceptions that look like this:
 #
       forward           localhost/     .
+      forward         192.168.*.*/     .
+      forward            10.*.*.*/     .
+      forward           127.*.*.*/     .
 #
 #
 #  5.3. forwarded-connect-retries
