@@ -188,8 +188,8 @@ DataDirectory /var/lib/tor
 ## address manually to your friends, uncomment this line:
 #PublishServerDescriptor 0
 
-# UseBridges 1
-# Bridge obfs3 37.218.246.249:49346 DBCFD46E48B9266FDC3BE6D090203A52FAB3B449
-# Bridge obfs3 195.154.104.74:35811 7820C4AB5F19F5FA083C229F7A8CCB91BD9F6D02
-# Bridge obfs3 54.213.194.61:40872 4FC642D071EA16C4549C9D9EA6AE5F2E49046941
-# ClientTransportPlugin obfs3 exec /usr/bin/obfsproxy --managed
+UseBridges 1
+Bridge obfs3 64.13.172.56:47379 4DF4B49129989AC0819AF78973F9237D4BC89B0F
+Bridge obfs3 54.213.194.61:40872 4FC642D071EA16C4549C9D9EA6AE5F2E49046941
+Bridge obfs3 192.81.209.60:35453 CE5CCE6AA2910FFC4735D9BC2C4195BF7BD886D0
+ClientTransportPlugin obfs3 exec /usr/bin/obfsproxy --managed
